@@ -7,7 +7,13 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // app.use(express.json())
 const db = require("./config/mongoose");
 
-// this is the initiator of the routing to different requests of the user with diff. url's
+
+app.get("/", (req, res) => {
+  res.json("Welcome to the app ");
+});
+
+
+
 app.use("/", require("./routes/index"));
 
 app.get("/", (req, res) => {
