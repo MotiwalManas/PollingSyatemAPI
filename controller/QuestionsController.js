@@ -32,7 +32,6 @@ module.exports.showDetails=async function(req,res){
 
     
 
-    // in this the details about the question is displayed
 }
 
 module.exports.deleteQues=async function(req,res){
