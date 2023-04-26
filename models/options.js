@@ -16,7 +16,7 @@ const optionSchema=new mongoose.Schema({
     },
     add_vote:{
         type:String,
-        // required:true
+      
     }
 })
 
